@@ -1,0 +1,192 @@
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C:\Users\1\Documents\Projects\modules\YiiShop\1.1\protected\extensions\payqr\classes\payqr_authentication.php
+payqr_authentication::checkHeader
+ L:43
+ Входящий секретный ключ из headers не совпадает с входящим ключом из файла конфигурации 
+ Текущее значение SecretKeyIn из вашего payqr_config.php: DC)6&mKE8!z9bEY6cHMc 
+ Содержание headers полученного уведомления от PayQR: Array
+(
+    [Http-Version] => 1.1
+    [Status-Code] => 200
+    [Status] => 200 OK
+    [Server] => nginx/1.9.4
+    [Date] => Mon, 07 Sep 2015 16:08:12 GMT
+    [Content-Type] => application/json; charset=utf-8
+    [Content-Length] => 1330
+    [Connection] => keep-alive
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Expires] => -1
+    [PQRSecretKey] => DC)6%26mKE8!z9bEY6cHMc
+    [X-AspNet-Version] => 4.0.30319
+    [X-Powered-By] => ASP.NET
+    [http-version] => 1.1
+    [status-code] => 200
+    [status] => 200 OK
+    [server] => nginx/1.9.4
+    [date] => Mon, 07 Sep 2015 16:08:12 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 1330
+    [connection] => keep-alive
+    [cache-control] => no-cache
+    [pragma] => no-cache
+    [expires] => -1
+    [pqrsecretkey] => DC)6%26mKE8!z9bEY6cHMc
+    [x-aspnet-version] => 4.0.30319
+    [x-powered-by] => ASP.NET
+)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Вызвано исключение : Error on line 85 in C:\Users\1\Documents\Projects\modules\YiiShop\1.1\protected\extensions\payqr\classes\payqr_base_request.php: <b>Неверный параметр ['PQRSecretKey'] в headers ответаpayqr_curl_response Object
+(
+    [body] => {"object":"invoice","id":"usr_inv_hiTazZOVPaCL5TUcZBwABt","payqrNumber":"3571375576161995","created":"2015-09-04T12:29:45.710+03:00","modified":"2015-09-04T12:30:30.400+03:00","livemode":false,"payqrUserId":"156136939890","scenario":"buy","amount":19.9900,"orderId":"52","orderGroup":"","cart":[{"article":"1","name":"Demonstration of Article with variations","imageUrl":"","quantity":1.0,"amount":19.99,"category":""}],"customer":{"firstName":"Дмитрий","middleName":"","lastName":"гайдуков","phone":"","email":"gaydukov89@gmail.com"},"delivery":{"country":"Россия","region":"","city":"","zip":"","street":"","house":"","unit":"","building":"","flat":"","hallway":"","floor":"","intercom":"","comment":"","longitude":null,"latitude":null,"kladrId":""},"deliveryCases":[],"deliveryCasesSelected":null,"pickPoints":[],"pickPointsSelected":null,"promoCode":{"article":"","description":"","value":""},"promoCard":{"article":"","description":"","value":""},"message":{"article":"","text":"","imageUrl":"","url":""},"upSale":[],"poll":[],"pollSelected":null,"userData":"[]","validityInMinutes":10080,"confirmWaitingInMinutes":4320,"status":"reverted","confirmStatus":"","reverts":[{"id":"b0d83dd9-40ce-44ac-bf64-7367fdcca956","created":"2015-09-04T12:30:30.242+03:00","revertedAmount":19.9900,"status":"Reverted"}]}
+    [headers] => Array
+        (
+            [Http-Version] => 1.1
+            [Status-Code] => 200
+            [Status] => 200 OK
+            [Server] => nginx/1.9.4
+            [Date] => Mon, 07 Sep 2015 16:08:12 GMT
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Length] => 1330
+            [Connection] => keep-alive
+            [Cache-Control] => no-cache
+            [Pragma] => no-cache
+            [Expires] => -1
+            [PQRSecretKey] => DC)6%26mKE8!z9bEY6cHMc
+            [X-AspNet-Version] => 4.0.30319
+            [X-Powered-By] => ASP.NET
+        )
+
+)
+</b>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C:\Users\1\Documents\Projects\modules\YiiShop\1.1\protected\extensions\payqr\classes\payqr_authentication.php
+payqr_authentication::checkHeader
+ L:43
+ Входящий секретный ключ из headers не совпадает с входящим ключом из файла конфигурации 
+ Текущее значение SecretKeyIn из вашего payqr_config.php: DC)6&mKE8!z9bEY6cHMc 
+ Содержание headers полученного уведомления от PayQR: Array
+(
+    [Http-Version] => 1.1
+    [Status-Code] => 200
+    [Status] => 200 OK
+    [Server] => nginx/1.9.4
+    [Date] => Mon, 07 Sep 2015 16:08:16 GMT
+    [Content-Type] => application/json; charset=utf-8
+    [Content-Length] => 1330
+    [Connection] => keep-alive
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Expires] => -1
+    [PQRSecretKey] => DC)6%26mKE8!z9bEY6cHMc
+    [X-AspNet-Version] => 4.0.30319
+    [X-Powered-By] => ASP.NET
+    [http-version] => 1.1
+    [status-code] => 200
+    [status] => 200 OK
+    [server] => nginx/1.9.4
+    [date] => Mon, 07 Sep 2015 16:08:16 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 1330
+    [connection] => keep-alive
+    [cache-control] => no-cache
+    [pragma] => no-cache
+    [expires] => -1
+    [pqrsecretkey] => DC)6%26mKE8!z9bEY6cHMc
+    [x-aspnet-version] => 4.0.30319
+    [x-powered-by] => ASP.NET
+)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Вызвано исключение : Error on line 85 in C:\Users\1\Documents\Projects\modules\YiiShop\1.1\protected\extensions\payqr\classes\payqr_base_request.php: <b>Неверный параметр ['PQRSecretKey'] в headers ответаpayqr_curl_response Object
+(
+    [body] => {"object":"invoice","id":"usr_inv_hiTazZOVPaCL5TUcZBwABt","payqrNumber":"3571375576161995","created":"2015-09-04T12:29:45.710+03:00","modified":"2015-09-04T12:30:30.400+03:00","livemode":false,"payqrUserId":"156136939890","scenario":"buy","amount":19.9900,"orderId":"52","orderGroup":"","cart":[{"article":"1","name":"Demonstration of Article with variations","imageUrl":"","quantity":1.0,"amount":19.99,"category":""}],"customer":{"firstName":"Дмитрий","middleName":"","lastName":"гайдуков","phone":"","email":"gaydukov89@gmail.com"},"delivery":{"country":"Россия","region":"","city":"","zip":"","street":"","house":"","unit":"","building":"","flat":"","hallway":"","floor":"","intercom":"","comment":"","longitude":null,"latitude":null,"kladrId":""},"deliveryCases":[],"deliveryCasesSelected":null,"pickPoints":[],"pickPointsSelected":null,"promoCode":{"article":"","description":"","value":""},"promoCard":{"article":"","description":"","value":""},"message":{"article":"","text":"","imageUrl":"","url":""},"upSale":[],"poll":[],"pollSelected":null,"userData":"[]","validityInMinutes":10080,"confirmWaitingInMinutes":4320,"status":"reverted","confirmStatus":"","reverts":[{"id":"b0d83dd9-40ce-44ac-bf64-7367fdcca956","created":"2015-09-04T12:30:30.242+03:00","revertedAmount":19.9900,"status":"Reverted"}]}
+    [headers] => Array
+        (
+            [Http-Version] => 1.1
+            [Status-Code] => 200
+            [Status] => 200 OK
+            [Server] => nginx/1.9.4
+            [Date] => Mon, 07 Sep 2015 16:08:16 GMT
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Length] => 1330
+            [Connection] => keep-alive
+            [Cache-Control] => no-cache
+            [Pragma] => no-cache
+            [Expires] => -1
+            [PQRSecretKey] => DC)6%26mKE8!z9bEY6cHMc
+            [X-AspNet-Version] => 4.0.30319
+            [X-Powered-By] => ASP.NET
+        )
+
+)
+</b>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C:\Users\1\Documents\Projects\modules\YiiShop\1.1\protected\extensions\payqr\classes\payqr_authentication.php
+payqr_authentication::checkHeader
+ L:43
+ Входящий секретный ключ из headers не совпадает с входящим ключом из файла конфигурации 
+ Текущее значение SecretKeyIn из вашего payqr_config.php: DC)6&mKE8!z9bEY6cHMc 
+ Содержание headers полученного уведомления от PayQR: Array
+(
+    [Http-Version] => 1.1
+    [Status-Code] => 200
+    [Status] => 200 OK
+    [Server] => nginx/1.9.4
+    [Date] => Mon, 07 Sep 2015 16:08:17 GMT
+    [Content-Type] => application/json; charset=utf-8
+    [Content-Length] => 1330
+    [Connection] => keep-alive
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Expires] => -1
+    [PQRSecretKey] => DC)6%26mKE8!z9bEY6cHMc
+    [X-AspNet-Version] => 4.0.30319
+    [X-Powered-By] => ASP.NET
+    [http-version] => 1.1
+    [status-code] => 200
+    [status] => 200 OK
+    [server] => nginx/1.9.4
+    [date] => Mon, 07 Sep 2015 16:08:17 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 1330
+    [connection] => keep-alive
+    [cache-control] => no-cache
+    [pragma] => no-cache
+    [expires] => -1
+    [pqrsecretkey] => DC)6%26mKE8!z9bEY6cHMc
+    [x-aspnet-version] => 4.0.30319
+    [x-powered-by] => ASP.NET
+)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Вызвано исключение : Error on line 85 in C:\Users\1\Documents\Projects\modules\YiiShop\1.1\protected\extensions\payqr\classes\payqr_base_request.php: <b>Неверный параметр ['PQRSecretKey'] в headers ответаpayqr_curl_response Object
+(
+    [body] => {"object":"invoice","id":"usr_inv_hiTazZOVPaCL5TUcZBwABt","payqrNumber":"3571375576161995","created":"2015-09-04T12:29:45.710+03:00","modified":"2015-09-04T12:30:30.400+03:00","livemode":false,"payqrUserId":"156136939890","scenario":"buy","amount":19.9900,"orderId":"52","orderGroup":"","cart":[{"article":"1","name":"Demonstration of Article with variations","imageUrl":"","quantity":1.0,"amount":19.99,"category":""}],"customer":{"firstName":"Дмитрий","middleName":"","lastName":"гайдуков","phone":"","email":"gaydukov89@gmail.com"},"delivery":{"country":"Россия","region":"","city":"","zip":"","street":"","house":"","unit":"","building":"","flat":"","hallway":"","floor":"","intercom":"","comment":"","longitude":null,"latitude":null,"kladrId":""},"deliveryCases":[],"deliveryCasesSelected":null,"pickPoints":[],"pickPointsSelected":null,"promoCode":{"article":"","description":"","value":""},"promoCard":{"article":"","description":"","value":""},"message":{"article":"","text":"","imageUrl":"","url":""},"upSale":[],"poll":[],"pollSelected":null,"userData":"[]","validityInMinutes":10080,"confirmWaitingInMinutes":4320,"status":"reverted","confirmStatus":"","reverts":[{"id":"b0d83dd9-40ce-44ac-bf64-7367fdcca956","created":"2015-09-04T12:30:30.242+03:00","revertedAmount":19.9900,"status":"Reverted"}]}
+    [headers] => Array
+        (
+            [Http-Version] => 1.1
+            [Status-Code] => 200
+            [Status] => 200 OK
+            [Server] => nginx/1.9.4
+            [Date] => Mon, 07 Sep 2015 16:08:17 GMT
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Length] => 1330
+            [Connection] => keep-alive
+            [Cache-Control] => no-cache
+            [Pragma] => no-cache
+            [Expires] => -1
+            [PQRSecretKey] => DC)6%26mKE8!z9bEY6cHMc
+            [X-AspNet-Version] => 4.0.30319
+            [X-Powered-By] => ASP.NET
+        )
+
+)
+</b>
